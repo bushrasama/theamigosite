@@ -28,10 +28,7 @@ const Routing = ()=>{
 return(
   <Switch>
    <Route exact path='/'>
-       <Signin />
-     </Route>
-  <Route path='/home'>
-    <Home />
+   <Home />
      </Route>
      <Route path='/signin'>
        <Signin />
