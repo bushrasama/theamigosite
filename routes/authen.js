@@ -7,9 +7,9 @@ const jwt = require("jsonwebtoken");
 const {JWT_SECRET} = require("../config/valuekeys");
 const requireLogin = require("../middleware/requireLogin");
 
-router.get("/",(req,res)=>{
+/*router.get("/",(req,res)=>{
     res.send("Hello World");
-})
+})*/
 
 router.post("/signup",(req,res)=>{
     //console.log(req.body)
